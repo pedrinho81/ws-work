@@ -1,0 +1,163 @@
+
+* {
+  margin: 0;
+  padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: arial, sans-serif;
+  outline: none;
+} 
+
+body, #root  {
+  color: #000;
+  background-color: #fff ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid #000;
+}
+
+body .main-body {
+  display: flex;
+  
+}
+
+aside {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-top: 0;
+  height: 15em; 
+
+}
+@media (max-width: 865px) {
+  aside {
+    display: none
+  }
+  table {
+    width: auto !important;
+    margin: 0 0.2rem !important;
+  }
+  }
+h4 {
+  font-weight: normal;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 0.5rem;
+}
+
+.header {
+  display: flex;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  gap: 1.4rem;
+  text-decoration: underline;
+  align-items: center;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #fff;
+  padding: 0.5rem; 
+  
+}
+
+main {
+  flex: 1 0;
+}
+
+table {
+  width: 90%;
+  max-width: 86rem;
+  padding: 1.5rem;
+  margin: 0 1.5rem;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #000;
+}
+
+th {
+  background-color: #f2f2f2;
+  border-right: 1px solid #000;
+}
+td {
+  padding: 1rem;
+  border-right: 1px solid #000;
+}
+.name {
+  width: 60%;
+}
+.price {
+  width: 20%;
+  font-weight: bold;
+}
+.btns {
+  width: 30%;
+
+}
+.div-coluna {
+  width: 100%;
+  height: 50px;
+  background-color: #c0c0c0;
+}
+
+.container-btn {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+}
+.exclude-btn {
+  background-color: red;
+  height: 30px;
+  color: #fff;
+}
+
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  width: 20rem;
+}
+
+input {
+  background-color: #ccc;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}

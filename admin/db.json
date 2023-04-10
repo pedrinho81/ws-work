@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "name": "Healty first",
+      "price": 9.99,
+      "description": "super supplement for your health and well-being, natural and 100% function, take advantage of this buffer",
+      "image": "https://img.migalhas.com.br/gf_Base/empresas/miga/imagens/6AE83E9A6AA9602CEFEA5B21E2E670976C5E_remedios.jpg",
+      "id": 1
+    },
+    {
+      "name": "Green Salad",
+      "price": 1.99,
+      "description": "Ervas medicinais",
+      "image": "https://blog.plantei.com.br/wp-content/uploads/2017/10/Principais-Plantas-Medicinais-Capa.jpg",
+      "id": 2
+    },
+    {
+      "name": "Water jar",
+      "price": 8.77,
+      "description": "image",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv1aGcOFDOQrau1y4IDmgABkbZ56Ych7Stag&usqp=CAU",
+      "id": 3
+    },
+    {
+      "name": "Natural supplement 1",
+      "price": 3.74,
+      "description": "image",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKQrs-lnMi1z2YmvTrBk_a9gp1NGJExktmRA&usqp=CAU",
+      "id": 4
+    },
+    {
+      "name": "Natural spplement 2",
+      "price": 0.22,
+      "description": "cheap and powerful remedy for long term healing",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjAjzeSGa7HvilWDmJ2NtJc2jfbYaXRwH2MQ&usqp=CAU",
+      "id": 5
+    },
+    {
+      "name": "Natural spplement 3",
+      "price": 0.22,
+      "description": "cheap and powerful remedy for long term healing",
+      "image": "https://img.freepik.com/fotos-gratis/close-up-de-maca-fresca_144627-14640.jpg?size=626&ext=jpg&ga=GA1.1.492074807.1680791310&semt=sph",
+      "id": 6
+    },
+    {
+      "name": "Long term health",
+      "price": 0,
+      "description": "best drink",
+      "image": "https://images-americanas.b2w.io/produtos/2210498302/imagens/jarra-de-agua-e-suco-vidro-1-2-l-points/2210498302_1_large.jpg",
+      "id": 7
+    }
+  ]
+}
