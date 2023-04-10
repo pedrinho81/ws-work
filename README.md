@@ -54,6 +54,7 @@ A aplicação desenvolvida tem a seguinte estrutura:
 - Vite
 - React-query
 - Typescript
+- Json-Server
 
 ## Client:
    - Página inicial: exibe o layout proposto no teste juntamente com os produtos previamente cadastrados no database local.
