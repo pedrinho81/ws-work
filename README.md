@@ -42,27 +42,27 @@ Este README descreve a documentação do projeto de teste técnico de frontend R
 ## Descrição do Projeto:
 A aplicação desenvolvida tem a seguinte estrutura:
 
-##Admin:
+## Admin:
    - Página inicial: exibe o layout proposto no teste juntamente com os produtos previamente cadastrados no database local, sendo possível adicionar novos produtos, editá-los e excluílos..
-## Funcionalidades
+#### Funcionalidades
 - CRUD dos produtos;
 - Validação dos inputs (todos obrigatórios)
 - Máscara de input e textos relacionados aos preços.
 - Responsividade;
 
-## Tecnologias usadas
+#### Tecnologias usadas
 - Vite
 - React-query
 - Typescript
 
-##Client:
+## Client:
    - Página inicial: exibe o layout proposto no teste juntamente com os produtos previamente cadastrados no database local.
-## Funcionalidades
+#### Funcionalidades
 - Validação e filtro dos dados recebidos
 - Cada 'seção' será renderizada de acordo com a disponibilidade e/ou ordem dos produtos cadastrados no admin
 - Responsividade;
 
-## Tecnologias usadas
+#### Tecnologias usadas
 - Next.js
 - Styled Components
 - React-query
