@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+  padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: arial, sans-serif;
+  outline: none;
+} 
+
+body, #root  {
+  color: #000;
+  background-color: #fff ;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  min-height: 100vh;
+  overflow: scroll;
+}
+footer {
+display: block;
+text-align: center;
+margin: 0 auto;
+}
+
+.center-msg {
+  text-align: center;
+  margin: 8rem;
+}
